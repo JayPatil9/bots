@@ -4,7 +4,6 @@ from discord.ext import commands, tasks
 from discord_components import DiscordComponents, Button, Select, SelectOption , ButtonStyle
 
 
-
 client = discord.Client()
 client = commands.Bot(command_prefix='ue!')
 client.remove_command("help")
